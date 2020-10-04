@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Architects Daughter', cursive;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.h1{
+    padding-left: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.cuerpo-de-postcard{
+    display: flex;
+}
+.contenido{
+    width: 50%;
+    justify-content: center;
+    padding: 20px 40px;
+    font-size: 25px;
+}
+.input{
+    width: 50%;
+    text-align: center;
+    padding: 20px 40px;
+}
+.formulario{
+    width: inherit;
+    padding: 10px 160px 10px 10px;
+    margin: 10px;
+    border:none;
+    border-bottom: 2px solid rgb(97, 96, 96);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    
+}
+.parte-final{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+.button input {
+    padding: 10px 30px;
+    font-family: 'Architects Daughter', cursive; 
+    font-size: 30px;
+    border: none;
+    background: rgb(173, 172, 172);
+    border-radius: 4px;
+}
+.button input:hover{
+    background: rgb(233, 200, 177);
+    border-bottom: rgb(63, 57, 55)solid 2px;
+    border-right: rgb(63, 57, 55) solid 2px;
+}
+.far{
+    color: darkgray;
+}
+.icons{
+   
+}
