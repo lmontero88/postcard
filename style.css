@@ -25,6 +25,7 @@ body{
     width: 50%;
     text-align: center;
     padding: 20px 40px;
+    position: relative;
 }
 .formulario{
     width: inherit;
@@ -35,6 +36,9 @@ body{
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
     
+}
+.icono{
+    color: darkgray;
 }
 .parte-final{
     display: flex;
@@ -55,9 +59,4 @@ body{
     border-bottom: rgb(63, 57, 55)solid 2px;
     border-right: rgb(63, 57, 55) solid 2px;
 }
-.far{
-    color: darkgray;
-}
-.icons{
-   
-}
+
